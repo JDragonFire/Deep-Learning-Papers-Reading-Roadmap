@@ -26,6 +26,7 @@ def read_args() -> argparse.Namespace:
     parser.add_argument(
         "--n-batch",
         default=3,
+        type=int,
         help="IF 2, divide all pdfs into two merged pdf files")
 
     parser.add_argument(
